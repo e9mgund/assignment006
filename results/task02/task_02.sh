@@ -1,0 +1,1 @@
+find /home/kilo/repo/assignment_repos/assignment006/test_data -type f -name "*Sales*" -exec sh -c 'cut -d "," -f 1,2,12,13,14 "$1" >> asia_sales.csv' sh {} \;
